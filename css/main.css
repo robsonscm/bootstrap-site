@@ -22,9 +22,6 @@ body {
 /******************************************/
 /*                My Code                 */
 /******************************************/
-/*html{*/
-    /*background: url(../img/natural_disaster.png) top left;*/
-/*}*/
 body {
     background-color: #0099A3;
     font-family: 'Oxygen', 'Helvetica', 'Arial', sans-serif;
@@ -54,12 +51,6 @@ h1,h2, h3, h4, h5, h6, .lead {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
-
-.main-div {
-    /*background-color: #2aabd2;*/
-    padding-bottom: 6rem;
-}
-
 .company, .social-media-stack {
     padding: .5rem;
 }
