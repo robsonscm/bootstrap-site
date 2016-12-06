@@ -24,6 +24,10 @@ body {
 /******************************************/
 body {
     background-color: #0099A3;
+    font-family: 'Oxygen', 'Helvetica', 'Arial', sans-serif;
+}
+h1,h2, h3, h4, h5, h6, .lead {
+    font-family: 'Arvo', 'Gloucester', 'Book Antiqua', serif;
 }
 .container, .card {
     background-color: #333;
