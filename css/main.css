@@ -22,6 +22,9 @@ body {
 /******************************************/
 /*                My Code                 */
 /******************************************/
+/*html{*/
+    /*background: url(../img/natural_disaster.png) top left;*/
+/*}*/
 body {
     background-color: #0099A3;
     font-family: 'Oxygen', 'Helvetica', 'Arial', sans-serif;
@@ -90,7 +93,7 @@ footer #youtube:hover {
 .nav-jumbo {
     padding-left: 5rem;
     background-color: #333;
-    border-bottom: 1px solid #078A6D;
+    border: 1px solid #078A6D;
     width: 95%;
     margin: auto;
 }

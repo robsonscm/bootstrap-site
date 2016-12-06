@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Climate Change - Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Oxygen" rel="stylesheet">
     <!--<link rel="stylesheet" href="css/bootstrap-grid.min.css">-->
     <!--<link rel="stylesheet" href="css/bootstrap-reboot.min.css">-->
     <link rel="stylesheet" href="css/iconic-bootstrap.css">
@@ -52,7 +53,7 @@
         </nav>
         <div class="jumbotron">
             <div class="container">
-                <h1 class="display-4"><strong>Contact us</strong></h1>
+                <h1 class="display-4"><strong>Contact Us</strong></h1>
                 <hr class="my-2">
                 <p>We hope you join our cause and come to participate in our events.</p>
                 <p>Here you have all ways to contact us and being part of this journey for a better planet</p>
@@ -63,45 +64,45 @@
 <!---->
 <main>
     <div class="container">
-        <div class="row flex-items-xs-center flex-items-md-middle">
+        <div class="row flex-items-xs-center">
             <div class="card-deck">
                 <div class="card">
                     <div class="card-block">
-                        <h4 class="card-title text-lg-center">
+                        <h4 class="card-title text-xs-center">
                             <span class="iconic iconic-arrow-thick-bottom-fill-large-angled"></span>
-                                Message us here
+                            Message us here
                             <span class="iconic iconic-arrow-thick-bottom-fill-large-angled"></span>
                         </h4>
                         <hr class="my-2">
                         <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
                         <form>
                             <div class="form-group row">
-                                <label for="inputName" class="col-sm-2 col-form-label">Name</label>
-                                <div class="col-sm-10">
+                                <label for="inputName" class="col-sm-6 col-lg-2 col-form-label">Name</label>
+                                <div class="col-sm-12 col-lg-10">
                                     <input type="text" class="form-control" id="inputName" placeholder="Name">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                                <div class="col-sm-10">
+                                <label for="inputEmail3" class="col-sm-6 col-lg-2 col-form-label">Email</label>
+                                <div class="col-sm-12 col-lg-10">
                                     <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="inputAddress" class="col-sm-2 col-form-label">Address</label>
-                                <div class="col-sm-10">
+                                <label for="inputAddress" class="col-sm-6 col-lg-2 col-form-label">Address</label>
+                                <div class="col-sm-12 col-lg-10">
                                     <input type="text" class="form-control" id="inputAddress" placeholder="Address">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="inputMsg" class="col-sm-2 col-form-label">Message</label>
-                                <div class="col-sm-10">
+                                <label for="inputMsg" class="col-sm-6 col-lg-2 col-form-label">Message</label>
+                                <div class="col-sm-12 col-lg-10">
                                     <textarea rows="4" cols="50" class="form-control" id="inputMsg" placeholder="Input your message"></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-2"></label>
-                                <div class="col-sm-10">
+                                <!--<label class="col-sm-2"></label>-->
+                                <div class="col-sm-12 offset-lg-2 col-lg-10">
                                     <div class="form-check">
                                         <label class="form-check-label">
                                             <input class="form-check-input" type="checkbox" checked> I want to receive the newsletter!
@@ -117,19 +118,23 @@
                         </form>
                     </div>
                 </div>
-                <div class="card text-lg-center text-sm-center">
-                    <div class="card-block">
-                        <h4 class="card-title text-sm-center text-lg-center">
+                <div class="card">
+                    <div class="card-block text-xs-center">
+                        <h4 class="card-title">
                             <span class="iconic iconic-arrow-thick-bottom-fill-large-angled"></span>
                             Find us here
                             <span class="iconic iconic-arrow-thick-bottom-fill-large-angled"></span>
                         </h4>
                         <hr class="my-2">
-                        <img class="card-img-top img-thumbnail"
-                             id="map"
-                             src="https://maps.googleapis.com/maps/api/staticmap?center=1077+Bank+St,+Ottawa,+ON+K1S,+Canada/@45.3945342,-75.6836579,18z&zoom=17&size=500x300&markers=1077+Bank+St,+Ottawa,+ON+K1S,+Canada/@45.3945342,-75.6836579,20z&key=AIzaSyDV-mR0vJxjuG1sYWHr9uOOlRiCqUVWsCs"
-                             alt="Card image cap">
-                        <!--<h4 class="card-title">Card title</h4>-->
+                        <picture>
+                            <source media="(max-width:  575px)" srcset="https://maps.googleapis.com/maps/api/staticmap?center=1077+Bank+St,+Ottawa,+ON+K1S,+Canada/@45.3945342,-75.6836579,18z&zoom=17&size=600x600&markers=1077+Bank+St,+Ottawa,+ON+K1S,+Canada/@45.3945342,-75.6836579,20z&key=AIzaSyDV-mR0vJxjuG1sYWHr9uOOlRiCqUVWsCs"/>
+                            <source media="(max-width:  991px)" srcset="https://maps.googleapis.com/maps/api/staticmap?center=1077+Bank+St,+Ottawa,+ON+K1S,+Canada/@45.3945342,-75.6836579,18z&zoom=17&size=400x600&markers=1077+Bank+St,+Ottawa,+ON+K1S,+Canada/@45.3945342,-75.6836579,20z&key=AIzaSyDV-mR0vJxjuG1sYWHr9uOOlRiCqUVWsCs"/>
+                            <source media="(max-width: 1199px)" srcset="https://maps.googleapis.com/maps/api/staticmap?center=1077+Bank+St,+Ottawa,+ON+K1S,+Canada/@45.3945342,-75.6836579,18z&zoom=17&size=500x400&markers=1077+Bank+St,+Ottawa,+ON+K1S,+Canada/@45.3945342,-75.6836579,20z&key=AIzaSyDV-mR0vJxjuG1sYWHr9uOOlRiCqUVWsCs"/>
+                            <img class="card-img-top img-thumbnail"
+                                 id="map"
+                                 src="https://maps.googleapis.com/maps/api/staticmap?center=1077+Bank+St,+Ottawa,+ON+K1S,+Canada/@45.3945342,-75.6836579,18z&zoom=17&size=500x300&markers=1077+Bank+St,+Ottawa,+ON+K1S,+Canada/@45.3945342,-75.6836579,20z&key=AIzaSyDV-mR0vJxjuG1sYWHr9uOOlRiCqUVWsCs"
+                                 alt="Card image cap" />
+                        </picture>
                         <small>
                             <p/>
                             <p class="card-text">1077 Bank St. Ottawa, Ontario K1S 3W9</p>
